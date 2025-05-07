@@ -146,7 +146,8 @@ typedef enum {
   ENTRY_HISTORY_UP,
   ENTRY_HISTORY_DOWN,
   MATCHER_UP,
-  MATCHER_DOWN
+  MATCHER_DOWN,
+  QUIT
 } KeyBindingAction;
 
 /**

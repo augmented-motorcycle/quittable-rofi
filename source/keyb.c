@@ -340,6 +340,10 @@ ActionBindingEntry rofi_bindings[] = {
      .name = "kb-mather-down",
      .binding = "Super+minus",
      .comment = "Switch to the next matcher"},
+     {.id = QUIT,
+      .name = "kb-quit",
+      .binding = "Super_L",
+      .comment = "Exits rofi" },
 
     /* Mouse-aware bindings */
 

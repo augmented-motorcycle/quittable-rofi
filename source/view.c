@@ -1814,6 +1814,7 @@ static void rofi_view_trigger_global_action(KeyBindingAction action) {
   // If you add a binding here, make sure to add it to
   // rofi_view_keyboard_navigation too
   case CANCEL:
+  case QUIT:
     state->retv = MENU_CANCEL;
     state->quit = TRUE;
     break;
